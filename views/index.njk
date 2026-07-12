@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTMX Practice</title>
+
+    <link rel="stylesheet" href="./css/output.css" />
+
+    <script src="https://unpkg.com/htmx.org@2.0.10"></script>
+  </head>
+
+  <body class="min-h-screen flex items-center justify-center bg-gray-100">
+    <main class="bg-white p-10 rounded-xl shadow-lg text-center">
+      <h1 class="text-3xl font-bold mb-6">HTMX Hello World</h1>
+
+      <div id="message" class="mb-6">Click the button 👇</div>
+
+      <button
+        hx-get="/hello"
+        hx-target="#message"
+        hx-swap="innerHTML"
+        class="px-5 py-3 bg-black text-white rounded-lg"
+      >
+        Say Hello
+      </button>
+    </main>
+  </body>
+</html>
