@@ -71,31 +71,7 @@ No page refresh is required.
 
 ---
 
-## 📂 Project Structure
-
-practice1/
-│
-├── src/
-│ └── server.ts
-│
-├── views/
-│ ├── index.njk
-│ └── partials/
-│ └── message.njk
-│
-├── public/
-│ ├── images/
-│ │ └── image.png
-│ │
-│ └── css/
-│ └── style.css
-│
-├── package.json
-├── tsconfig.json
-├── nodemon.json
-└── README.md
-
----
+## 📂![Project Structure](public/images/image.png)
 
 ## ⚙️ Installation
 
