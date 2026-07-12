@@ -71,7 +71,7 @@ No page refresh is required.
 
 ---
 
-## 📂![Project Structure](public/images/HTMX_Folder_Structure.png)
+## 📂 Project Structure ![Project Structure](public/images/HTMX_Folder_Structure.png)
 
 ## ⚙️ Installation
 
